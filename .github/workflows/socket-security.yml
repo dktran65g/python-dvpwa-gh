@@ -62,7 +62,7 @@ jobs:
           # - Default branch status from git and GitHub environment
           # - Changed files from git commit
           socketcli \
-            --org au-cdsb-poc
+            --owner au-cdsb-poc
             --target-path $GITHUB_WORKSPACE \
             --scm github \
             --pr-number $PR_NUMBER
