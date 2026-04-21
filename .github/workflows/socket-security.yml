@@ -62,8 +62,8 @@ jobs:
           # - Default branch status from git and GitHub environment
           # - Changed files from git commit
           socketcli \
-            --owner au-cdsb-poc
-            --api-token sktsec_Y7V_VgVi8FzDQdWKnzJ0bsFK5zfUzTfoLFuROJF0wcPH_api
+            --owner au-cdsb-poc \
+            --api-token sktsec_Y7V_VgVi8FzDQdWKnzJ0bsFK5zfUzTfoLFuROJF0wcPH_api \
             --target-path $GITHUB_WORKSPACE \
             --scm github \
             --pr-number $PR_NUMBER
