@@ -64,4 +64,4 @@ jobs:
           socketcli \
             --target-path $GITHUB_WORKSPACE \
             --scm github \
-            --pr-number $PR_NUMBER. s
+            --pr-number $PR_NUMBER
